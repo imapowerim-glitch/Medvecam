@@ -1,0 +1,31 @@
+# MedVeCam Ultra 2.0 Requirements
+# Core dependencies for advanced medical camera application
+
+# Camera and video processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Raspberry Pi camera support (optional - install only on Raspberry Pi)
+# picamera2>=0.3.12
+
+# GUI framework
+tkinter
+Pillow>=9.5.0
+
+# System and utilities
+pathlib2>=2.3.7
+dataclasses>=0.8
+
+# Audio support (optional)
+# pyaudio>=0.2.11
+
+# Performance optimization
+# numba>=0.57.0  # JIT compilation for numpy operations
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Additional image processing (optional)
+# scikit-image>=0.20.0
+# matplotlib>=3.7.0
